@@ -1,0 +1,25 @@
+Create a 2 player shooting game.
+Each player has a health of 100.
+Players can shoot at each other with a random power (0-5) which will reduce the opponent's health.
+The Player whose health reaches 0, dies and the game ends.
+
+There are 5 such rounds, the player with the most game wins, wins the match/tournament.
+
+On the screen, there should be a button to start the game.
+Once the game finishes, it should update the current score.
+When a player wins 3 games, show the winner of the match.
+
+
+
+
+the game consisits of two section game zone and playing zone
+gameZone is responsible for the scores and other displaying materials 
+and playing zone have two players 
+
+***vimp**
+As the game starts .there is a start btn which when clicked , game play soound is played
+with two players and two btns to shoot.Each player shoots bullets when clicked On their
+respective shoot buttons.. as the health decreases and reches to 0..that player is lost for that particular 
+round.There are total 5 rounds and the player wining maximum rounds win the game.As the game is over 
+a gameboard is displayed with the final results .and game is reloaded after 2 sec automatically
+
